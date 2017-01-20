@@ -1,39 +1,115 @@
+/*
+COLORS:
+Purple: #A16DFF
+Light Purple:#D37EE8
+Blue:#058CE8
+Light Blue:#A6D9E1
+Pink:#FF9ED4
+*/
 body {
-    background-color;none;
+    background-color; none;
+    Color:#FF9ED4;
 }
 
 #header {
     width:100%;
-    background-color: beige;
+    background-color: none;
+    min-height: 80px;
 }
 
 #header > h1 {
     margin:0;
+    text-align: center;
+    font-family:'Lato', sans-serif;
+    position: relative;
+    transform: translateY(50%);
 }
 #nav {
     width:100%;
-    background-color: aqua;
+    background-color:#FF9ED4 ;
+    min-height: 80px;
+    font-family:'Lato', sans-serif;
+    height: auto;
 }
-
-.menu {
+#nav > ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    transform: translateY(50%);
+}
+#nav > ul > button{
+        min-width: 120px;
+    background-color: #A6D9E1;
+    color: #A16DFF;
+    border: none;
+    padding: 15px 32px;
+    transition: background-color .25s;
+}
+#nav > ul > button:hover {
+    background-color: #D37EE8;
+    
+}
+/*.menu {
     display:flex;
     background:#d7e6f;
     justify-content: space-around;
     list-style-type: none;
     margin:0;
+}*/
+#middle-wrapper-width{
+    display: flex;
+    font-family: 'Lato',sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
 }
-
+}
 #middle-wrapper {
-        display: flex;
+        
+}
+.side-by-side {
+    display: flex;
 }
 
-#main-content-wrapper {
-    background-color:greenyellow;
-    width: 80%;
+#main-content-wrapper .image-content {
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
 }
+
+.image-content > img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.image-content > h4 {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 300;
+    color:#FF9ED4;
+}
+
+.image-content > h4 > a {
+    color:#FF9ED4;
+} 
+
+.image-content > h4 > a:hover {
+    color:#A6D9E1;
+} 
+
+#main-content-wrapper article {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#main-content-wrapper article h2 {
+    text-align: center;
+}
+#main-content-wrapper article p {
+    
+}
+
 
 #aside-content-wrapper {
-    background-color: plum;
+    background-color:#A6D9E1;
     width:20%;
 
 }
