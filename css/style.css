@@ -155,8 +155,8 @@ body {
 
 #favorite-sites {
     background-image: url(img/bg.jpg);
-    border-top: 5px #A6D9E1 solid;
-    border-bottom: 5px #A6D9E1 solid;
+    border-top: 5px #D37EE8 solid;
+    border-bottom: 5px #D37EE8 solid;
 }
 
 #favorite-sites ul {
@@ -168,7 +168,7 @@ body {
 }
 footer {
     background-color:#FF9ED4;
-    color:#D37EE8;
+    color:#A6D9E1;
     text-align: center;
     /*font-family: 'lato',sans-serif;*/
     min-height: 100px;
